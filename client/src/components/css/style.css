@@ -7113,3 +7113,30 @@ footer a{
 /* ===========================
   DASHBOARD END
 =============================*/
+
+.select_2 {
+  appearance: none; /* Removes default arrow */
+  width: 100%;
+
+  background-color: #DBFAFE;
+  border-radius: 40px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.appoinment_page_input {
+  position: relative;
+}
+
+.dropdown_input::after {
+  content: "▼"; /* Adds a custom dropdown arrow */
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: gray;
+  pointer-events: none;
+}
