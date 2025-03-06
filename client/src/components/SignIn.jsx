@@ -4,7 +4,7 @@ import './css/style.css';
 import Logo from "../images/logo_m.png"
 
 const SignIn = () => {
-  const [username, setUsername] = useState('');
+  const [email, setemail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -17,13 +17,13 @@ const SignIn = () => {
 
     try {
      
-      const response = await fetch('https://your-backend-api.com/login', {
+      const response = await fetch('http://localhost:5500/api/users/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          username: username,
+          email: email,
           password: password,
         }),
       });
@@ -58,10 +58,10 @@ const SignIn = () => {
               <form onSubmit={handleSubmit}>
                 <input
                   type="text"
-                  placeholder="Username"
+                  placeholder="email"
                   style={{ border: '1px solid silver' }}
-                  value={username}
-                  onChange={(e) => setUsername(e.target.value)}
+                  value={email}
+                  onChange={(e) => setemail(e.target.value)}
                 />
                 <input
                   type="password"
