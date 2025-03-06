@@ -1,0 +1,401 @@
+department,day_of_week,hour_of_day,time_duration
+Vaccine,3,14,5
+Teeth,3,14,22
+Skin Care,2,16,37
+Skin Care,2,13,40
+Skin Care,3,16,35
+Ear,5,9,15
+Eye,5,12,23
+Skin Care,6,11,31
+Teeth,3,10,17
+Skin Care,2,8,45
+Ear,3,15,14
+Eye,3,12,25
+Vaccine,3,9,6
+Vaccine,0,14,3
+Teeth,3,12,16
+Teeth,0,16,19
+Vaccine,2,17,4
+Eye,1,10,21
+Eye,5,15,25
+Ear,3,8,10
+Vaccine,2,15,6
+Ear,4,14,12
+Eye,3,13,26
+Eye,1,8,29
+Teeth,5,18,23
+Teeth,0,10,18
+Skin Care,1,16,35
+Ear,6,15,15
+Vaccine,3,18,7
+Ear,0,11,11
+Ear,4,14,10
+Vaccine,1,18,3
+Skin Care,4,9,38
+Vaccine,3,8,7
+Teeth,6,16,19
+Teeth,2,11,19
+Teeth,1,15,18
+Teeth,4,14,23
+Ear,2,15,14
+Eye,1,18,24
+Ear,2,14,11
+Vaccine,4,15,6
+Teeth,3,18,15
+Teeth,6,12,21
+Ear,4,18,13
+Ear,6,10,11
+Teeth,2,13,18
+Teeth,3,12,17
+Vaccine,2,14,6
+Vaccine,2,9,7
+Ear,1,12,15
+Teeth,4,17,19
+Ear,3,9,13
+Skin Care,1,14,34
+Ear,4,14,11
+Eye,4,17,24
+Skin Care,1,11,45
+Ear,3,16,12
+Eye,5,15,29
+Skin Care,2,16,33
+Teeth,1,11,20
+Eye,3,12,23
+Vaccine,6,14,7
+Skin Care,1,14,30
+Vaccine,1,9,5
+Vaccine,3,16,4
+Teeth,2,12,21
+Teeth,5,17,19
+Teeth,1,14,20
+Teeth,4,18,17
+Vaccine,0,15,3
+Teeth,3,16,17
+Teeth,6,12,25
+Vaccine,4,10,5
+Eye,2,9,23
+Vaccine,3,17,3
+Eye,3,13,20
+Ear,6,8,11
+Ear,4,14,11
+Skin Care,6,15,35
+Skin Care,4,8,45
+Ear,2,11,13
+Vaccine,1,13,4
+Vaccine,5,18,5
+Ear,2,17,12
+Skin Care,4,17,41
+Skin Care,4,11,36
+Eye,5,12,21
+Ear,2,9,11
+Vaccine,2,12,3
+Eye,3,18,22
+Teeth,5,15,17
+Vaccine,1,14,6
+Teeth,4,13,15
+Eye,1,13,25
+Skin Care,5,13,30
+Vaccine,6,16,7
+Eye,3,8,22
+Teeth,4,10,22
+Eye,0,17,28
+Vaccine,4,14,4
+Vaccine,2,14,6
+Vaccine,2,11,6
+Eye,3,9,30
+Vaccine,0,13,4
+Ear,0,8,10
+Teeth,2,10,17
+Vaccine,0,10,7
+Teeth,1,9,16
+Vaccine,0,11,7
+Eye,6,11,24
+Teeth,2,15,19
+Teeth,3,11,18
+Teeth,3,8,20
+Skin Care,2,18,40
+Eye,0,8,20
+Ear,3,12,15
+Ear,3,18,15
+Eye,4,9,22
+Eye,4,16,24
+Skin Care,4,18,40
+Eye,6,11,23
+Ear,4,18,13
+Teeth,2,11,21
+Ear,6,15,10
+Ear,5,13,15
+Eye,2,15,28
+Teeth,2,13,24
+Vaccine,2,9,5
+Teeth,4,16,17
+Teeth,4,9,22
+Teeth,0,11,16
+Teeth,1,13,24
+Teeth,5,9,19
+Ear,5,11,13
+Eye,2,11,22
+Ear,3,18,12
+Teeth,2,8,15
+Eye,3,10,29
+Vaccine,0,15,7
+Teeth,3,13,25
+Teeth,2,12,19
+Eye,4,9,24
+Eye,3,14,29
+Skin Care,2,12,43
+Teeth,2,18,24
+Skin Care,2,10,30
+Skin Care,6,8,45
+Teeth,3,18,16
+Vaccine,3,10,6
+Vaccine,5,17,4
+Vaccine,3,16,6
+Eye,6,16,27
+Teeth,1,18,21
+Ear,0,15,10
+Ear,2,18,12
+Ear,1,16,14
+Ear,0,12,11
+Ear,3,17,10
+Teeth,1,10,24
+Skin Care,1,16,36
+Ear,2,17,15
+Ear,1,11,10
+Vaccine,4,9,3
+Ear,5,10,13
+Teeth,0,14,23
+Ear,4,13,14
+Eye,6,10,23
+Skin Care,1,9,44
+Vaccine,0,17,6
+Teeth,1,9,15
+Eye,6,13,24
+Ear,5,16,11
+Vaccine,0,8,3
+Vaccine,0,16,6
+Teeth,3,9,22
+Skin Care,6,8,37
+Eye,3,14,29
+Ear,3,17,15
+Teeth,2,9,21
+Skin Care,5,8,35
+Skin Care,0,8,31
+Teeth,0,10,15
+Ear,5,9,10
+Eye,0,13,26
+Vaccine,4,15,4
+Ear,3,10,10
+Eye,2,12,20
+Ear,3,15,11
+Vaccine,5,14,6
+Skin Care,2,16,30
+Vaccine,0,12,4
+Teeth,0,16,23
+Eye,3,15,25
+Teeth,2,17,23
+Teeth,1,9,23
+Ear,6,13,12
+Teeth,2,15,17
+Ear,3,17,11
+Vaccine,6,12,5
+Ear,5,12,10
+Eye,1,11,26
+Vaccine,4,16,7
+Eye,2,17,22
+Vaccine,6,9,4
+Vaccine,2,8,5
+Skin Care,6,12,33
+Skin Care,0,15,31
+Teeth,3,13,19
+Eye,4,16,27
+Eye,0,17,21
+Ear,5,13,15
+Skin Care,6,16,36
+Vaccine,6,12,6
+Vaccine,3,17,7
+Ear,3,9,10
+Ear,6,11,14
+Skin Care,1,18,36
+Teeth,1,15,25
+Eye,6,15,20
+Skin Care,4,15,36
+Skin Care,2,15,30
+Ear,0,11,12
+Teeth,0,14,15
+Skin Care,1,13,34
+Eye,6,12,24
+Skin Care,3,12,44
+Skin Care,4,12,40
+Vaccine,5,8,5
+Eye,2,14,27
+Vaccine,2,18,4
+Skin Care,3,11,36
+Skin Care,1,17,38
+Skin Care,1,10,35
+Skin Care,4,10,30
+Eye,5,18,20
+Eye,1,17,25
+Skin Care,2,8,34
+Eye,3,12,20
+Ear,6,15,11
+Eye,6,13,21
+Skin Care,6,16,35
+Skin Care,0,12,38
+Skin Care,6,15,36
+Ear,4,17,12
+Ear,5,15,13
+Vaccine,5,17,7
+Teeth,1,17,20
+Eye,4,18,28
+Vaccine,2,8,5
+Vaccine,1,12,5
+Vaccine,5,16,4
+Ear,3,8,11
+Eye,3,16,22
+Eye,2,9,25
+Eye,0,16,26
+Ear,5,10,12
+Ear,0,13,14
+Teeth,0,12,18
+Ear,6,11,15
+Skin Care,6,12,35
+Skin Care,1,12,38
+Ear,4,10,13
+Ear,6,17,12
+Vaccine,2,17,7
+Skin Care,1,10,34
+Eye,3,12,26
+Skin Care,0,13,43
+Teeth,3,8,19
+Ear,5,9,13
+Ear,0,12,14
+Eye,1,14,25
+Skin Care,1,11,41
+Skin Care,4,17,33
+Eye,1,14,27
+Ear,6,15,10
+Teeth,3,17,16
+Eye,6,15,20
+Vaccine,0,11,5
+Teeth,2,18,15
+Ear,2,14,13
+Ear,5,9,15
+Ear,5,16,13
+Skin Care,4,12,37
+Vaccine,6,8,4
+Vaccine,2,16,6
+Ear,2,13,12
+Skin Care,2,8,41
+Eye,6,17,24
+Skin Care,6,17,42
+Ear,1,18,15
+Eye,4,14,30
+Ear,4,17,15
+Skin Care,0,11,42
+Teeth,3,17,24
+Skin Care,1,9,44
+Skin Care,2,8,31
+Skin Care,4,9,39
+Ear,0,13,13
+Eye,5,12,28
+Eye,5,15,24
+Teeth,1,9,24
+Vaccine,6,18,4
+Skin Care,2,13,44
+Eye,0,17,21
+Vaccine,4,11,7
+Skin Care,5,16,37
+Teeth,2,8,16
+Teeth,6,12,17
+Eye,6,12,29
+Teeth,3,16,18
+Eye,2,14,25
+Teeth,2,15,18
+Ear,3,11,10
+Vaccine,3,15,3
+Vaccine,6,12,3
+Eye,3,18,27
+Teeth,3,13,16
+Vaccine,4,11,5
+Ear,6,15,11
+Eye,2,17,23
+Vaccine,5,11,3
+Eye,4,9,30
+Teeth,5,14,22
+Vaccine,6,10,7
+Vaccine,0,10,3
+Teeth,0,13,20
+Skin Care,3,17,40
+Vaccine,3,13,6
+Ear,1,15,13
+Ear,3,12,12
+Skin Care,0,12,34
+Eye,5,15,20
+Skin Care,6,16,31
+Teeth,6,11,23
+Vaccine,4,16,7
+Teeth,6,17,16
+Vaccine,2,9,4
+Skin Care,1,17,37
+Skin Care,2,17,32
+Eye,4,12,28
+Eye,5,12,26
+Ear,5,9,13
+Ear,0,11,12
+Skin Care,2,11,43
+Eye,3,11,21
+Ear,6,17,11
+Vaccine,6,13,6
+Teeth,1,13,21
+Vaccine,2,11,3
+Ear,3,18,13
+Eye,6,14,29
+Skin Care,6,11,38
+Teeth,4,17,19
+Vaccine,4,11,7
+Skin Care,3,15,41
+Vaccine,2,18,6
+Teeth,4,17,18
+Vaccine,2,14,5
+Vaccine,0,11,7
+Vaccine,4,15,6
+Teeth,2,16,17
+Teeth,1,12,23
+Teeth,3,14,24
+Vaccine,4,18,3
+Vaccine,2,18,7
+Eye,2,8,23
+Teeth,6,15,17
+Skin Care,3,11,40
+Ear,5,17,14
+Ear,4,15,10
+Vaccine,0,9,4
+Ear,3,15,12
+Skin Care,0,8,37
+Vaccine,1,16,5
+Eye,4,8,30
+Skin Care,1,11,40
+Eye,6,8,21
+Teeth,3,12,19
+Teeth,3,14,15
+Skin Care,1,13,41
+Vaccine,1,12,7
+Teeth,6,16,17
+Teeth,1,9,25
+Skin Care,6,17,41
+Teeth,1,9,15
+Vaccine,4,15,5
+Teeth,6,13,16
+Vaccine,5,10,4
+Ear,4,8,13
+Skin Care,4,11,33
+Teeth,6,10,17
+Ear,6,12,15
+Ear,6,12,11
+Teeth,5,15,19
+Skin Care,0,13,41
+Vaccine,1,8,6
+Vaccine,3,17,7
+Skin Care,2,9,30
+Skin Care,2,16,44
