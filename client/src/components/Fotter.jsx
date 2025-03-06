@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 import { faFacebookF, faTwitter, faPinterestP, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import Logo from '../images/logo_m.png'
 
@@ -21,8 +22,7 @@ const Footer = () => {
                 />
               </a>
               <p>
-                There are to popular belie Lorem is Ipsum is not simply
-                random.
+              Providing Care with Compassion and Excellence for a Healthier Tomorrow.
               </p>
              
               <div className="tf_footer_icon d-flex flex-wrap align-items-center">
@@ -58,19 +58,16 @@ const Footer = () => {
               <h5>Company</h5>
               <ul>
                 <li>
-                  <a href="index.html">home</a>
+                  <a href="/">home</a>
                 </li>
                 <li>
-                  <a href="about.html">about us</a>
+                  <a href="/appointment">book appointment</a>
                 </li>
                 <li>
-                  <a href="service.html">our service</a>
+                  <a href="/liveupdate">view status</a>
                 </li>
                 <li>
-                  <a href="team.html">our team</a>
-                </li>
-                <li>
-                  <a href="contact.html">contact us</a>
+                  <a href="/emerhency">register emergency</a>
                 </li>
               </ul>
             </div>
@@ -80,17 +77,15 @@ const Footer = () => {
             <div className="quick_link">
               <h5>Important</h5>
               <ul>
+              
                 <li>
-                  <a href="#">Appointment</a>
+                  <a href="#">faq</a>
                 </li>
                 <li>
-                  <a href="faq.html">faq</a>
+                  <a href="#">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="privacy.html">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="terms_condition.html">Terms & Conditions</a>
+                  <a href="#">Terms & Conditions</a>
                 </li>
               </ul>
             </div>
@@ -102,11 +97,11 @@ const Footer = () => {
               <ul>
 
                 <li>
-                  <a href="priceing.html">Pricing Plan</a>
+                  <a href="#">Pricing Plan</a>
                 </li>
 
                 <li>
-                  <a href="sing_up.html">login</a>
+                  <a href="/sing_in">login</a>
                 </li>
 
               </ul>
@@ -117,18 +112,17 @@ const Footer = () => {
             <div className="address">
               <h5>Official Info</h5>
               <div className="tf_footer_address">
-                <p>
-                  <i className="fas fa-map-marker-alt"></i>
-                  2767 Sunrise Street, NY 1002, USA
+              <div className="contact-info" style={{ fontFamily: 'Arial, sans-serif' }}>
+                <p style={{ display: 'inline-flex', alignItems: 'center', marginBottom: '10px' }}>
+                  <FaMapMarkerAlt style={{ marginRight: '10px' }} /> 123 Addis Ababa, Ethiopia
                 </p>
-                <a href="#">
-                  <i className="fas fa-envelope"></i>
-                  company@gmail.com
+                <a href="mailto:company@example.com" style={{ display: 'inline-flex', alignItems: 'center', marginBottom: '10px' }}>
+                  <FaEnvelope style={{ marginRight: '10px' }} /> company@example.com
                 </a>
-                <a href="#">
-                  <i className="fas fa-phone-alt"></i>
-                  +965548547564
+                <a href="tel:+251912345678" style={{ display: 'inline-flex', alignItems: 'center', marginBottom: '10px' }}>
+                  <FaPhoneAlt style={{ marginRight: '10px' }} /> +251 91 234 5678
                 </a>
+              </div>
               </div>
             </div>
           </div>

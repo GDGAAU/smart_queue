@@ -1,5 +1,6 @@
 import { useState } from "react"; 
 import { FiMenu, FiX } from "react-icons/fi";
+import { Link } from 'react-router-dom';
 import Logo from "../images/logo_m.png";
 import './css/style.css';
 
@@ -11,7 +12,9 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
        
         <div className="flex items-center w-30" >
-          <img src={Logo} alt="Logo" className="" />
+        <Link to="/">  
+                <img src={Logo} alt="Logo" className="" />
+        </Link>
         </div>
 
         <div className="md:hidden">
@@ -27,10 +30,10 @@ const Navbar = () => {
           } md:block`}
         >
           <ul className="flex flex-col md:flex-row items-center gap-4 p-4 md:p-0">
-            <li><a href="#" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>Home</a></li>
-            <li><a href="#" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>About</a></li>
-            <li><a href="#" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>Services</a></li>
-            <li><a href="#" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>Contact</a></li>
+            <li><a href="/" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>Home</a></li>
+            <li><a href="/appointment" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>Appointment</a></li>
+            <li><a href="/emergency" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>Emergency</a></li>
+            <li><a href="/liveupdate" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>Status</a></li>
           </ul>
         </nav>
 
