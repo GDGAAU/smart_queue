@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import './css/style.css'; 
 import Logo from "../images/logo_m.png";
 
@@ -11,6 +11,9 @@ const SignUp = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
+
+
+  const navigate = useNavigate(); 
 
  
   const handleSubmit = async (e) => {
@@ -26,7 +29,7 @@ const SignUp = () => {
 
     try {
       // Make a POST request to the backend with the registration data
-      const response = await fetch('https://your-backend-api.com/signup', {
+      const response = await fetch(' http://localhost:5500/api/users/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -45,6 +48,8 @@ const SignUp = () => {
         // Handle successful registration (e.g., redirect to login)
         console.log('Registration successful:', data);
         // Redirect to login or handle success as needed
+        navigate('/sign-in');
+        
       } else {
         // Handle error
         setError(data.message || 'An error occurred during registration');

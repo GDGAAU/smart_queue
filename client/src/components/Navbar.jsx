@@ -36,7 +36,7 @@ const Navbar = () => {
 
     
         <div className="hidden md:block">
-          <a href="#" className="bg-[#3F96DE] hover:bg-[#B8F0F9] text-white py-2 px-4 rounded-full transition no-underline" style={{textDecoration:'none'}}>
+          <a href="/sign-in" className="bg-[#3F96DE] hover:bg-[#B8F0F9] text-white py-2 px-4 rounded-full transition no-underline" style={{textDecoration:'none'}}>
             Login
           </a>
         </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
 
       {menuOpen && (
         <div className="mt-4 md:hidden text-center">
-          <a href="#" className="bg-[#DBFAFE] hover:bg-[#B8F0F9] text-black py-2 px-4 rounded-full transition no-underline">
+          <a href="/sign-in" className="bg-[#DBFAFE] hover:bg-[#B8F0F9] text-black py-2 px-4 rounded-full transition no-underline">
             Login
           </a>
         </div>
