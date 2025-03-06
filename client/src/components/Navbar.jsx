@@ -27,7 +27,7 @@ const Navbar = () => {
           } md:block`}
         >
           <ul className="flex flex-col md:flex-row items-center gap-4 p-4 md:p-0">
-            <li><a href="#" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>Home</a></li>
+            <li><a href="/" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>Home</a></li>
             <li><a href="#" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>About</a></li>
             <li><a href="#" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>Services</a></li>
             <li><a href="#" className="hover:text-gray-400 no-underline"  style={{textDecoration:'none', color:'#78E2FE'}}>Contact</a></li>

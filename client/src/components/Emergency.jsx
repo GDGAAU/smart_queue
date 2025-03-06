@@ -102,7 +102,7 @@ const Appointment = () => {
                       <div className="appoinment_page_input">
                         <textarea
                           rows="5"
-                          placeholder="Symptoms"
+                          placeholder="Emergency level"
                           value={symptoms}
                           onChange={(e) => setSymptoms(e.target.value)}
                         />
