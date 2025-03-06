@@ -1,0 +1,1 @@
+{"name":"Local: predict","url":"c:\\Users\\Ephraim\\Desktop\\hackaton\\smart_queue\\server\\utils\\predict.py","tests":[{"id":1741282912443,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Ephraim\\Desktop\\hackaton\\smart_queue\\server\\utils\\predict.py","group":"local","local":true}
