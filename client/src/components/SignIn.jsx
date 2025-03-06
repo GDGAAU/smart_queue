@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import './css/style.css'; 
 import Logo from "../images/logo_m.png"
 
+
 const SignIn = () => {
   const [email, setemail] = useState('');
   const [password, setPassword] = useState('');
@@ -47,6 +48,7 @@ const SignIn = () => {
   };
 
   return (
+ 
     <section className="sign_up pt_100 xs_pt_70 pb_100 xs_pb_70" style={{ marginBottom: '7rem', marginTop: '10rem' }}>
       <div className="container">
         <div className="row justify-content-center">
@@ -88,6 +90,7 @@ const SignIn = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 
