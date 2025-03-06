@@ -116,7 +116,7 @@ const Appointment = () => {
                       </div>
                     </div>
                     <div className="col-md-6">
-                      <div className="appoinment_page_input" style={{padding:'12px 15px', background:'#DBFAFE', borderRadius:'40px'}}>
+                      <div className="appoinment_page_input dropdown_input" style={{padding:'12px 15px', background:'#DBFAFE', borderRadius:'40px'}}>
                         <select
                           className="select_2"
                           value={department}
@@ -132,7 +132,7 @@ const Appointment = () => {
                       </div>
                     </div>
                     <div className="col-md-6">
-                      <div className="appoinment_page_input" style={{padding:'12px 15px', background:'#DBFAFE', borderRadius:'40px'}}>
+                      <div className="appoinment_page_input dropdown_input" style={{padding:'12px 15px', background:'#DBFAFE', borderRadius:'40px'}}>
                         <select
                           className="select_2"
                           value={doctor}
@@ -157,7 +157,7 @@ const Appointment = () => {
                       </div>
                     </div>
                     <div className="col-md-6">
-                      <div className="appoinment_page_input" style={{padding:'12px 15px', background:'#DBFAFE', borderRadius:'40px'}}>
+                      <div className="appoinment_page_input dropdown_input" style={{padding:'12px 15px', background:'#DBFAFE', borderRadius:'40px'}}>
                         <select
                           className="reservation_input select_2"
                           value={appointmentTime}
@@ -172,9 +172,13 @@ const Appointment = () => {
                       </div>
                     </div>
                     <div className="col-lg-12">
-                      <div className="appoinment_page_input" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', marginTop:'15px',padding:'12px 15px', background:'#DBFAFE', borderRadius:'40px' }}>
-                      <label style={{ marginRight: '10px', marginBottom: '0'  }}>Standby</label>
-                      <input type="checkbox" checked={isChecked} onChange={handleChange} style={{ marginLeft: 'auto' }} />
+                      
+                      <div className="appoinment_page_input" style={{ alignItems: 'start', width: '100%', marginTop:'15px',padding:'12px 15px', background:'#DBFAFE', borderRadius:'40px' }}>
+                        <div style={{ display: 'flex', justifyContent: 'start',marginBottom: '0'}}>
+                        <div className='standby' style={{width:"100px", display:"flex"}}><label style={{ marginRight: '10px', marginBottom: '0'  }}>Standby</label>
+                      <input type="checkbox" checked={isChecked} onChange={handleChange} style={{ marginLeft: '0', width:"20px" }} /></div>
+                      </div>
+                      <p style={{fontSize:"14px", color:"gray"}}>Enable standby to be prioritized if an earlier slot opens due to cancellations or no-shows.</p>
                       </div>
                     </div>
                     
