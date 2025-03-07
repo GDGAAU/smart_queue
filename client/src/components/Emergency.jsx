@@ -52,7 +52,7 @@ const Appointment = () => {
           <div className="row">
             <div className="col-xl-5 col-lg-6 wow fadeInLeft" data-wow-duration="1s">
               <div className="appointment_page_img">
-                <img src={appointmentImg} alt="appointment" className="img-fluid w-100" />
+                <img src={appointmentImg} alt="appointment" className="img-fluid w-100" style={{borderRadius:'50px'}} />
               </div>
             </div>
             <div className="col-xl-7 col-lg-6 wow fadeInRight" data-wow-duration="1s">
@@ -60,10 +60,9 @@ const Appointment = () => {
                 <form onSubmit={handleSubmit}>
                   <h2>Register</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quo itaque, officiis
-                    voluptatem provident inventore nobis voluptas impedit eligendi, officia asperiores
-                    ad autem ratione quam.
-                  </p>
+                    In case of an emergency, we are here to provide immediate assistance. Please fill out the form below with the necessary details, and our team will prioritize your care and ensure swift medical attention.
+                    </p>
+
                   <div className="row">
                     <div className="col-lg-12">
                       <div className="appoinment_page_input">
