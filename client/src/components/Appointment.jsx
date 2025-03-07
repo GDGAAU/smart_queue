@@ -72,7 +72,7 @@ const Appointment = () => {
           <div className="row">
             <div className="col-xl-5 col-lg-6 wow fadeInLeft" data-wow-duration="1s">
               <div className="appointment_page_img">
-                <img src={appointmentImg} alt="appointment" className="img-fluid w-100" />
+                <img src={appointmentImg} alt="appointment" className="img-fluid w-100" style={{borderRadius:'50px'}} />
               </div>
             </div>
             <div className="col-xl-7 col-lg-6 wow fadeInRight" data-wow-duration="1s">
@@ -80,10 +80,10 @@ const Appointment = () => {
                 <form onSubmit={handleSubmit}>
                   <h2>Book Appointment</h2>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quo itaque, officiis
-                    voluptatem provident inventore nobis voluptas impedit eligendi, officia asperiores
-                    ad autem ratione quam.
+                    Book your appointment easily with us. Our team is dedicated to providing you with the best care and support. Fill out the form, and we’ll ensure a smooth process from start to finish.
                   </p>
+
+
                   <div className="row">
                     <div className="col-lg-12">
                       <div className="appoinment_page_input">
